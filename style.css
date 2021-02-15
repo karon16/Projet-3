@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'Bitter-Bold';
+    src:url('Bitter-Bold.ttf.woff') format('woff'),
+        url('Bitter-Bold.ttf.svg#Bitter-Bold') format('svg'),
+        url('Bitter-Bold.ttf.eot'),
+        url('Bitter-Bold.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+/*Préparaton du fond*/
+body {
+    background-color: #C8C8C8;
+    font-family:Arial, Helvetica, sans-serif  ;
+}
+main {
+    margin : auto;
+    width: 65% ;
+}
+/*style du titre principa*/
+h1 {
+    text-align:center;
+    font-size: 5em;
+    font-family: 'Bitter-Bold';
+    
+}
+/*Travail sur les trois premiers paragraphes*/
+main p:nth-of-type(1){
+    margin-top: -40px;
+}
+a {
+    color : #CF0025;
+    font-weight: bold;
+}
+h2 {
+    color : #CF0025;
+    font-weight: bold;
+    font-family: 'Bitter-Bold';
+    font-size: 2em;
+}
+
+/*Travail sur le tableau*/
+table{
+    border-spacing: unset;
+    
+}
+tbody tr:nth-of-type(2n+1){
+    background-color: #DDDDDD;
+}
+table th{
+    background-color: #333333;
+    height :25px;
+    color: white;
+    font-style: initial;
+    text-align: center;
+    font-size: 0.9em;
+    padding : 5px;
+}
+table td:nth-of-type(1){
+    font-weight: bold;
+    text-align: center;
+}
+table tr:hover{
+    background-color: #999999;
+    cursor: pointer;
+}
+table td{
+    padding-bottom: 10px;
+    padding-top :10px;
+}
+
+/* Travail sur l'image */
+figure{
+    background-color: #333333;
+    width :100%;
+    padding-top :35px;
+    border: 3px solid #CF0D30;
+    border-radius: 20px;
+    margin :0px;
+}
+#ordi{
+    display: block;
+    margin :auto;
+    width : 95%
+}
+figcaption{
+    color: white;
+    margin-bottom :35px;
+    margin-top :15px;
+    text-align: center;
+
+}
+
+/*case du bas*/
+#base_page{
+    border : 2px dashed #5144AE;
+    width: 80%;
+    background-color: #B7B7B7;
+    color: #5144AE ;
+    padding: 20px;
+    display: block;
+    margin: auto;
+    
+}
