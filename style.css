@@ -1,16 +1,11 @@
-@font-face {
-    font-family: 'Bitter-Bold';
-    src:url('Bitter-Bold.ttf.woff') format('woff'),
-        url('Bitter-Bold.ttf.svg#Bitter-Bold') format('svg'),
-        url('Bitter-Bold.ttf.eot'),
-        url('Bitter-Bold.ttf.eot?#iefix') format('embedded-opentype'); 
-    font-weight: normal;
-    font-style: normal;
+@font-face{
+    font-family: Bitter;
+    src: url(/bitter/Bitter\ Bold.ttf);
 }
 /*Préparaton du fond*/
 body {
     background-color: #C8C8C8;
-    font-family:Arial, Helvetica, sans-serif  ;
+    font-family: Arial, Helvetica,sans-serif  ;
 }
 main {
     margin : auto;
@@ -20,7 +15,7 @@ main {
 h1 {
     text-align:center;
     font-size: 5em;
-    font-family: 'Bitter-Bold';
+    font-family: Bitter;
     
 }
 /*Travail sur les trois premiers paragraphes*/
